@@ -29,8 +29,14 @@ For STS, John Hopkins have [this STS](https://github.com/AndriyMulyar/semantic-t
 The issue with using STS for chatbot is well explained by sBert
 ```
 However, it requires that both sentences are fed into the network, 
-which causes a massive computational overhead: 
-Finding the most similar pair in a collection of 10,000 sentences requires about 50 million inference computations (~65 hours) with BERT. T
-he construction of BERT makes it unsuitable for semantic similarity search as well as for unsupervised tasks like clustering.
+which causes a massive computational overhead.
+Finding the most similar pair in a collection of 10,000 sentences 
+requires about 50 million inference computations (~65 hours) with BERT. 
+The construction of BERT makes it unsuitable for semantic similarity search 
+as well as for unsupervised tasks like clustering.
 ```
 
+For Intent Detection and Slot Filling, the current best performing model is from [Tencent](https://github.com/LeePleased/StackPropagation-SLU). The paper can be found [here](https://arxiv.org/pdf/1909.02188.pdf). The pointers to take note from this paper are
+* Multi-Task (parallel) vs Stack Propagation (serial: downstream task benefit explicitly from upstream task)
+* Token Level Intent Detection
+* Bert in SLU
