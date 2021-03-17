@@ -40,3 +40,5 @@ For Intent Detection and Slot Filling, the current best performing model is from
 * Multi-Task (parallel) vs Stack Propagation (serial: downstream task benefit explicitly from upstream task)
 * Token Level Intent Detection
 * Bert in SLU
+
+For sBert, please google the website. It is a vectorized embedding for BERT. 
