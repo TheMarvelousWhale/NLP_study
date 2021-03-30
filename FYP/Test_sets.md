@@ -46,3 +46,8 @@ Some Slot filling datasets https://github.com/sz128/slot_filling_and_intent_dete
 
 Squad dataset
 https://github.com/rajpurkar/SQuAD-explorer 
+
+More datasets:
+https://analyticsindiamag.com/10-question-answering-datasets-to-build-robust-chatbot-systems/ 
+
+https://kili-technology.com/blog/chatbot-training-datasets/ 

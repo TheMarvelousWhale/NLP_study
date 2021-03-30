@@ -19,5 +19,8 @@ https://www.reddit.com/r/LanguageTechnology
 
 [sBert](https://www.sbert.net/examples/applications/clustering/README.html)
 
+
 # Ramble conner
-How Airbnb use LDA and CNN to solve for speed https://medium.com/airbnb-engineering/discovering-and-classifying-in-app-message-intent-at-airbnb-6a55f5400a0c 
+How Airbnb use LDA and CNN to solve for speed [.](https://medium.com/airbnb-engineering/discovering-and-classifying-in-app-message-intent-at-airbnb-6a55f5400a0c )
+
+C4 dataset and the Common Crawl 
